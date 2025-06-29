@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>QuickFeedback</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="feedback-box">
+    <h1>QuickFeedback</h1>
+    <form id="feedback-form">
+      <label for="user-name">Name</label>
+      <input type="text" id="user-name" placeholder="Enter your name" required>
+
+      <label for="user-email">Email</label>
+      <input type="email" id="user-email" placeholder="Enter your email" required>
+
+      <label for="user-rating">Rating</label>
+      <select id="user-rating" required>
+        <option value="">Choose rating</option>
+        <option value="1">⭐</option>
+        <option value="2">⭐⭐</option>
+        <option value="3">⭐⭐⭐</option>
+        <option value="4">⭐⭐⭐⭐</option>
+        <option value="5">⭐⭐⭐⭐⭐</option>
+      </select>
+
+      <label for="user-feedback">Your Feedback</label>
+      <textarea id="user-feedback" rows="4" placeholder="Write your feedback here..." required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <div id="thank-you" class="hidden">
+      <h2>Thanks for your feedback! 🎉</h2>
+      <p>We appreciate your time and input.</p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
