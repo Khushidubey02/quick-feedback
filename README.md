@@ -29,3 +29,6 @@
 
 ## 🤝 Contribution
 This project is part of my learning journey. Suggestions and improvements are welcome!
+## 🌐 Live Demo
+
+[Click here to view the live app](https://resonant-paletas-2cd208.netlify.app)
